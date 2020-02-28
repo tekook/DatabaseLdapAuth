@@ -1,0 +1,25 @@
+{
+    "name": "tekook/databaseldapauth",
+    "description": "Package for using database based mutliple ldap auth as a laravel auth provider",
+    "keywords": [ "laravel", "auth","ldap","database" ],
+    "type": "project",
+	"license": "MIT",
+	"homepage": "https://github.com/tekook/DatabaseLdapAuth",
+	"authors": [
+        {
+            "name": "Julian Tekook",
+            "email": "info@tjsrv.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "directorytree/ldaprecord": "^1.0",
+        "ext-ldap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tekook\\DatabaseLdapAuth\\": "src/"
+        }
+    }
+}
